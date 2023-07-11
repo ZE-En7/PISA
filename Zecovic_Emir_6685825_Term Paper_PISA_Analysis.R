@@ -1,7 +1,7 @@
 #######################################################################
 # Emir Zecovic, 6685825                                               #
 # R code: 2nd assignment                                              #
-# Date 08.08.2023                                                     #
+# Date 11.07.2023                                                     #
 #######################################################################
 
 # Packages-----
@@ -160,11 +160,11 @@ P18_immback <- subset (P18, immback == 1)
 
 
 ################################################################
-# Save as RDS file for faster loading
-#saveRDS(P18_immback,"P18_immback.rds")
-
-# Load P18 -------------------------------------------------
-#P18_immback <- readRDS("P18_immback.rds")
+# Save as RDS file for faster loading                          #
+#saveRDS(P18_immback,"P18_immback.rds")                        #
+#                                                              #
+# Load P18 -------------------------------------------------   #
+#P18_immback <- readRDS("P18_immback.rds")                     #
 ################################################################
 
 
